@@ -13,7 +13,7 @@
 - Babel
 - ES6
 
--- Styles
+##### Styles
 - sass-loader
 - style-loader
 - style-loader
