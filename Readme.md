@@ -1,8 +1,9 @@
 ## Instructions
 
 ### To initialize the project: 
--npm install
--yarn start
+ 
+ - npm install
+ - yarn start
 
 #### Used in this project
 
@@ -12,7 +13,7 @@
 - Babel
 - ES6
 
-· Styles
+-- Styles
 - sass-loader
 - style-loader
 - style-loader
