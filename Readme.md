@@ -17,3 +17,4 @@
 - sass-loader
 - style-loader
 - style-loader
+- Semantic UI React
