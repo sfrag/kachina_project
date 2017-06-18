@@ -17,7 +17,7 @@ export default class App extends React.Component {
             <div>
                 <HeaderComponent></HeaderComponent>
                 <div style={{textAlign: 'center'}}>
-                    <h1>Kachina project</h1>
+                    <h1>Kachina tonto project</h1>
                     <Button>Click Here</Button>
                 </div>
             </div>
