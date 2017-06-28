@@ -1,7 +1,7 @@
 ## Instructions
 
-### To initialize the project: 
- 
+### To initialize the project:
+
  - npm install
  - yarn start
 
@@ -12,6 +12,10 @@
 - Yarn
 - Babel
 - ES6
+
+#### HTTP client
+
+- [Axios](http://codeheaven.io/how-to-use-axios-as-your-http-client/)
 
 ##### Styles
 - sass-loader

@@ -6,6 +6,8 @@
 
 import React from 'react';
 import HeaderComponent from './Header.jsx';
+import CardExampleCard from './Card.jsx';
+
 
 import { Button } from 'semantic-ui-react';
 
@@ -20,6 +22,7 @@ export default class App extends React.Component {
                     <h1>Kachina tonto project</h1>
                     <Button>Click Here</Button>
                 </div>
+                <div class="col"><CardExampleCard></CardExampleCard></div>
             </div>
             );
     }
