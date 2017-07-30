@@ -4,24 +4,18 @@
 
 */
 
-import React, { Component } from 'react';
-
-import MenuComponent from './Menu.jsx';
-import ImageGrid from './ImageGrid.jsx';
+import React from 'react'
+import Main from './Main.jsx'
+import LaunchPage from './Launch.jsx'
 
 //import { Button } from 'semantic-ui-react';
 
 require("!style-loader!css-loader!sass-loader!../stylesheets/main.scss");
 
-export default class App extends React.Component {
-    render() {
-        return (
-            <div className="root-wrapper">
-                <MenuComponent></MenuComponent>
-                <div className="content-wrapper">
-                <ImageGrid></ImageGrid>
-                </div>
-            </div>
-            );
-    }
-}
+const App = () => (
+    <div>
+        <Main/>
+    </div>
+)
+
+export default App
