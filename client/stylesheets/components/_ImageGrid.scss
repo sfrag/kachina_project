@@ -18,3 +18,47 @@
 .grid-margins {
   padding: 6px 8px 6px 8px;
 }
+
+.photo-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+  h1{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1{
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1{
+    font-size: 4rem;
+  }
+}
+
+@media (mix-width: 1600px) {
+  
+}
