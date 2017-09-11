@@ -7,15 +7,16 @@
 import React from 'react'
 
 import MenuComponent from './Menu.jsx'
-import ImageGrid from './ImageGrid.jsx'
+import Countries from './Countries.jsx'
+import CountryDetail from './CountryDetail.jsx'
 
-//import { Button } from 'semantic-ui-react';
-
-const ChoicerPage = () => (
+const ChoicerPage = (props) => (
     <div className="root-wrapper">
         <MenuComponent></MenuComponent>
         <div className="content-wrapper">
-        <ImageGrid></ImageGrid>
+            {props.location.pathname == '/countries'?
+                ( <Countries></Countries> ) :
+                ( <CountryDetail></CountryDetail>) }
         </div>
     </div>
 )
