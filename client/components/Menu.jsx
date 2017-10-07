@@ -6,6 +6,7 @@
 
 import React from 'react';
 import { Menu, Icon } from 'antd';
+import BackButton from './BackButton.jsx'
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -20,7 +21,7 @@ export default class MenuComponent extends React.Component {
       current: e.key,
     });
   }
-    render() {
+    render(props) {
         return (
             <Menu
                 onClick={this.handleClick}
@@ -47,6 +48,7 @@ export default class MenuComponent extends React.Component {
                 <Menu.Item key="alipay">
                 <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
                 </Menu.Item>
+                <BackButton>{this.props}</BackButton>
             </Menu>
         );
     }
