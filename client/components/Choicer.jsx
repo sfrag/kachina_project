@@ -14,9 +14,9 @@ const ChoicerPage = (props) => (
     <div className="root-wrapper">
         <MenuComponent></MenuComponent>
         <div className="content-wrapper">
-            {props.location.pathname == '/countries'?
+            {!props.match.params.country?
                 ( <Countries></Countries> ) :
-                ( <CountryDetail></CountryDetail>) }
+                ( <CountryDetail>{props}</CountryDetail>) }
         </div>
     </div>
 )

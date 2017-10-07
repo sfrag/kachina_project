@@ -9,10 +9,7 @@ const Main = () => (
         <Switch>
             <Route exact path='/' component={LaunchPage}/>
             <Route exact path='/countries' component={ChoicerPage}/>
-            <Route exact path='/japan' component={ChoicerPage}/>
-            <Route exact path='/spain' component={ChoicerPage}/>
-            <Route exact path='/china' component={ChoicerPage}/>
-            <Route exact path='/india' component={ChoicerPage}/>
+            <Route exact path='/countries/:country' component={ChoicerPage}/>
         </Switch>
     </main>
 )
