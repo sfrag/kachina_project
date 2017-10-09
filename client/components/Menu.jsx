@@ -48,7 +48,7 @@ export default class MenuComponent extends React.Component {
                 <Menu.Item key="alipay">
                 <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
                 </Menu.Item>
-                <BackButton>{this.props}</BackButton>
+                <BackButton>{this.props.children}</BackButton>
             </Menu>
         );
     }
