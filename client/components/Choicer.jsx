@@ -16,7 +16,7 @@ const ChoicerPage = (props) => (
             <MenuComponent>{props}</MenuComponent>
             {!props.match.params.country?
                 ( <Countries></Countries> ) :
-                ( <CountryDetail>{props}</CountryDetail>) }
+                ( <CountryDetail>{props.match.params.country}</CountryDetail>) }
         </div>
     </div>
 )
