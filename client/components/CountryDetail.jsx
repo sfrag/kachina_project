@@ -8,7 +8,7 @@ var objects ={'japan':['Tokyo', 'Kyoto', 'Miyajima', 'Hiroshima']};
 
 export default class CountryDetail extends React.Component {
     handleClick = (e) => {
-        console.log('click ', e);
+        console.log('click ');
     }
 
     render(){
