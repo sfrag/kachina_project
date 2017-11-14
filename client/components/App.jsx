@@ -4,23 +4,18 @@
 
 */
 
-import React from 'react';
-import HeaderComponent from './Header.jsx';
+import React from 'react'
+import Main from './Main.jsx'
+import LaunchPage from './Launch.jsx'
 
-import { Button } from 'semantic-ui-react';
+//import { Button } from 'semantic-ui-react';
 
 require("!style-loader!css-loader!sass-loader!../stylesheets/main.scss");
 
-export default class App extends React.Component {
-    render() {
-        return (
-            <div>
-                <HeaderComponent></HeaderComponent>
-                <div style={{textAlign: 'center'}}>
-                    <h1>Kachina tonto project</h1>
-                    <Button>Click Here</Button>
-                </div>
-            </div>
-            );
-    }
-}
+const App = () => (
+    <div>
+        <Main/>
+    </div>
+)
+
+export default App

@@ -1,0 +1,22 @@
+.launch-page {
+    margin: 0;
+    padding: 0;
+    background-image: url(http://res.cloudinary.com/dri9jzjlr/image/upload/v1501111102/launch_image_huvqwf.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    position: fixed;
+    left: 50%;
+    top: 80%;
+    height: 30px;
+    width: 200px;
+    margin-top: -15px;   /* = -height / 2   */
+    margin-left: -100px; /* = -width / 2    */
+}
